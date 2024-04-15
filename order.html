@@ -103,7 +103,7 @@
     <button type="submit"> Submit </button>
 
     <script>
-    // Input is yellow when clicked and white when you click off
+        
     let inputs = document.getElementsByTagName("input");
     for (let input of inputs) {
         input.addEventListener("focus", function() {
@@ -124,7 +124,7 @@
     } else {
         document.getElementById("toppings_q1").style.display = "none";
     }
-});
+    });
 
     document.getElementById("q2").addEventListener("blur", function() {
         let quantity = parseInt(this.value);

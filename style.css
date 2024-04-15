@@ -82,11 +82,3 @@ input {
     box-sizing: border-box;
 }
 
-footer {
-    background-color: rgba(120, 15, 15, 0.674);
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    margin-top: 20px;
-}
-
